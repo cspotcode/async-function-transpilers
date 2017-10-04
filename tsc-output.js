@@ -23,3 +23,4 @@ function serialAsyncMap(collection, fn) {
         });
     });
 }
+exports.serialAsyncMap = serialAsyncMap;

@@ -3,8 +3,8 @@ which transpiler should you use?
 
 ### In short:
 
-Babel's output is 9.6x the size of the input (after minification)  
-TypeScript's is only 3.7x
+Babel's output is 8.1x the size of the input (after minification)  
+TypeScript's is 3.5x
 
 (Remember that TypeScript can be used to transpile plain JavaScript, sans type-checking)
 
