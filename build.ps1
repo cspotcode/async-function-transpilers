@@ -1,8 +1,8 @@
 #!/usr/bin/env powershell
-uglifyjs --compress --mangle --output input.min.js input.js
-uglifyjs --compress --mangle --output babel-output.min.js babel-output.js
-# uglifyjs --compress --mangle --output babel-output2.min.js babel-output2.js
-uglifyjs --compress --mangle --output tsc-output.min.js tsc-output.js
+uglifyjs --compress --mangle --toplevel --output input.min.js input.js
+uglifyjs --compress --mangle --toplevel --output babel-output.min.js babel-output.js
+# uglifyjs --compress --mangle --toplevel --output babel-output2.min.js babel-output2.js
+uglifyjs --compress --mangle --toplevel --output tsc-output.min.js tsc-output.js
 
 function compareSizes($ext) {
     $inputLength = (gi input$ext).length
