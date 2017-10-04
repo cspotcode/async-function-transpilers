@@ -2,6 +2,7 @@
   "name": "async-function-example",
   "version": "1.0.0",
   "dependencies": {
+    "ts-node": "^3.3.0",
     "tslib": "^1.7.1",
     "typescript": "^2.5.3",
     "uglify-es": "^3.1.3"
