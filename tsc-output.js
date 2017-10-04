@@ -1,8 +1,8 @@
-var __awaiter=a,__generator=a;
+var tslib_1 = a;
 function serialAsyncMap(collection, fn) {
-    return __awaiter(this, void 0, void 0, function () {
+    return tslib_1.__awaiter(this, void 0, void 0, function () {
         var result, _i, collection_1, item, _a, _b;
-        return __generator(this, function (_c) {
+        return tslib_1.__generator(this, function (_c) {
             switch (_c.label) {
                 case 0:
                     result = [];
