@@ -1,0 +1,10 @@
+{
+  "name": "async-function-example",
+  "version": "1.0.0",
+  "dependencies": {
+    "uglify-es": "^3.1.3"
+  },
+  "scripts": {
+    "build": "powershell -NoProfile -ExecutionPolicy RemoteSigned -File ./build.ps1"
+  }
+}
