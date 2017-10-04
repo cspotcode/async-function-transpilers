@@ -1,6 +1,7 @@
-In short:
-Babel's output is over 9x the size of the input (after minification)
-TypeScript's is less than 4x
+### In short:
+
+Babel's output is over 9.6x the size of the input (after minification)  
+TypeScript's is only 3.7x
 
 tsc output comes from the playground:
 http://www.typescriptlang.org/play/index.html#src=async%20function%20serialAsyncMap(collection%2C%20fn)%20%7B%0D%0A%20%20let%20result%20%3D%20%5B%5D%3B%0D%0A%20%20for%20(let%20item%20of%20collection)%20%7B%0D%0A%20%20%20%20result.push(await%20fn(item))%3B%0D%0A%20%20%7D%0D%0A%20%20return%20result%3B%0D%0A%7D
