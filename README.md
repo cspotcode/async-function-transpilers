@@ -1,10 +1,12 @@
 If you're transpiling `async` / `await` for the browser, and you care about the filesize of your minified bundles,
 which transpiler should you use?
 
-### In short:
+### In short
 
 Babel's output is 8.1x the size of the input (after minification)  
 TypeScript's is 3.5x
+
+Filesizes are shown in [size-comparison.txt](size-comparison.txt)
 
 (Remember that TypeScript can be used to transpile plain JavaScript, sans type-checking)
 
