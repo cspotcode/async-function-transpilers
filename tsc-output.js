@@ -1,4 +1,4 @@
-var __awaiter,__generator;
+var __awaiter=a,__generator=a;
 function serialAsyncMap(collection, fn) {
     return __awaiter(this, void 0, void 0, function () {
         var result, _i, collection_1, item, _a, _b;

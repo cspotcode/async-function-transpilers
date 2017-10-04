@@ -1,4 +1,4 @@
-var _asyncToGenerator,regeneratorRuntime;
+var _asyncToGenerator=a,regeneratorRuntime=a;
 var serialAsyncMap = exports.serialAsyncMap = function () {
     var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(collection, fn) {
         var result, _iteratorNormalCompletion, _didIteratorError, _iteratorError, _iterator, _step, item;
